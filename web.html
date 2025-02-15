@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WEB</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+img{
+background-radius:8px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #111;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+p.italic
+{
+font-style:italic;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body >
+<div class="container">
+<img src="https://cdn.suwalls.com/wallpapers/cars/mercedes-benz-amg-logo-26412-1920x1200.jpg" width=100% height=260px alt="Mercedes">
+ <div class="top-left">Mercedes Benz</div>
+<div class="overlay">
+<div class="text"><p class="italic" style="font-size:60px">Welcome</p></div>
+</div>
+</div>
+<ul>
+  <li><a class="active" href="https://www.mercedes-benz.co.in/passengercars/models.html?group=amg&subgroup=see-all&filters=">Home</a></li>
+ <li><a href="https://www.mercedes-benz.co.in/passengercars/models.html?group=all&subgroup=see-all&filters=">Our Models</a></li>
+  <li><a href="https://www.mercedes-benz.co.in/passengercars/services/support-contact.html">Contact</a></li>
+
+  <li><a href="#about">About</a></li>
+</ul>
+<div class="gallery">
+  <a target="_blank" href="https://th.bing.com/th/id/OIP.8ONrzbjBWbKIYGwgoe5zzQAAAA?rs=1&pid=ImgDetMain">
+    <img  src="https://th.bing.com/th/id/OIP.8ONrzbjBWbKIYGwgoe5zzQAAAA?rs=1&pid=ImgDetMain" alt="Cinque Terre" width="600" height="600" >
+  </a>
+  <div class="desc">Automobile technology has seen exponential growth over the years, and the G Wagon has been a testament to this evolution. The pinnacle of its off-road technology came to life when Mercedes-Benz unleashed the G Wagon 4×4 Squared. With portal axles, enhanced ground clearance, and an uncompromising powertrain, the G Wagon 4×4 Squared is nothing short of off-road royalty. Dive deeper into its features on The G Wagon 4×4 Squared: Off-Road Royalty.</div>
+</div>
+
+
+</div>
+<br>
+<hr>
+<img src="https://th.bing.com/th/id/OIP.VMyecfqWGnROEmIKAquZYAHaFP?rs=1&pid=ImgDetMain" height=100px width=100px alt="benz" >
+
+
+
+
+</body>
+</html>

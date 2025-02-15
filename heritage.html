@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:white;
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+p.italic{
+font-style:italic;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D2691E;
+border-radius:10px;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #FFFAF0;
+  text-align: center;
+  padding: 18px 35px;
+  text-decoration: none;
+border-radius:20px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #FFA07A;
+}
+
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 47.5%;
+  padding: 10px;
+border-radius:10px;
+}
+img:hover {
+  animation: shake 4s;
+  animation-iteration-count: 4;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+ }
+</style>
+</head>
+<body>
+
+<img src="logo.avif" width="150" height="150" alt="rome" >
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="heritage.html">Heritage</a></li>
+<li><a href="hotel.html">Hotel Booking</a></li>
+<li><a href="group.html">Gallery</a></li>
+  </ul>
+<br>
+<div class="container">
+<a href="gallery.html">
+<img style="border-radius:10px;" src="Colosseo_2020.jpg" alt="colosseo" width=50% height=50%>
+   </a>
+ <div class="content">
+    <h2 style="font-style:italic">Colosseum</h2>
+</div>
+</div>
+<div class="container">
+<a href="romanforum.html">
+<img style="border-radius:10px" src="forum.jpg" alt="colosseo" width=50% height=50%>
+</a>
+    <div class="content">
+    <h2 style="font-style:italic">Roman Forum</h2>
+
+</div>
+</div>
+<div class="container">
+<a href="pantheo.html">
+<img style="border-radius:10px" src="pantheon.jpg" alt="colosseo" width=50% height=50%>
+</a>
+    <div class="content">
+    <h2 style="font-style:italic">Pantheon</h2>
+</div>
+</div>
+<div class="container">
+<a href="vatica.html">
+<img style="border-radius:10px" src="vatican.jpg" alt="colosseo" width=50% height=50%>
+</a>
+    <div class="content">
+    <h2 style="font-style:italic">Vatican City</h2>
+</div>
+</div>
+<hr>
+<p style="text-align:center;font-size:15px">© 2025 City Tourism. All rights reserved.</p>
+
+
+
+
+</body>
+</html>
+
+

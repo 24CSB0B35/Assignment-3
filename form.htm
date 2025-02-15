@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<title>registration forms</title>
+<body  style="background-image: url('picture.jpg'); background-repeat: no-repeat;background-size=cover;background-color:lavender;text-align:center">
+<h1 style="text-align:center">Registrations forms</h1>
+<hr>
+<marquee scrollamount="10"><div style="font-size:20px;color:red">Enter your personal details on or before 12 Jan 2025 . For any further enquires we request you to contact this number +91 9099678433 ,if website stops responding please revisit the site after an hour</div></marquee>
+<hr>
+<form action="/hello.php">
+<fieldset >
+<legend><b>Personal details</b></legend>
+First name
+<input type="text" name="firstname" placeholder="Enter Your Firstname"  >
+<br>
+Last name
+<input type="text" name="lastname" placeholder="Enter your Lastname" ><br>
+Email<br>
+<input type="text" name="Email" placeholder="Enter your Email"><br>
+Moblie No<br>
+
+<input type="text" name="Mobile No" placeholder="Enter your Mobile No"><br>
+PAN Number<br>
+<input type="text" name="PAN Number" placeholder="Enter your PAN"><br>
+Aadhar Number<br>
+<input type="text" name="Aadhar Number" placeholder="Enter your Aadhar"><br>
+
+<p><b style="font-size:20px">Select Gender:</b></p>
+<input type="radio" id="gender1" name="gender" value="Male">
+<label for="gender1">Male</label>
+<input type="radio" id="gender2" name="gender" value="Female">
+<label for="gender2">Female</label>
+<p><b style="font-size:20px">Select Date of Birth:</b></p>
+<input type="date" name="DOB"><br>
+<p><b style="font-size:20px">Intrested courses</b></p>
+<select name="dropdown" >
+<option value="Select">Select </option>
+<option value="machine learning">machine learning</option>
+<option value="deep thinking">deep thinking</option>
+<option value="optimization">optimization</option>
+<option value="english and technical communication">english and technical communication</option>
+</select><br>
+<p><b style="font-size:20px">Select age:</b></p>
+<input type="radio" id="age1" name="age" value="15">
+<label for="age1">0 to 15</label><br>
+<input type="radio" id="age2" name="age" value="30">
+<label for="age2">15 to 30</label> <br>
+<b>Temporary address<b><br>
+<input type="text" name="Temporary address"><br>
+<b>Permanent address</b><br>
+<input type="text" name=" Permanent address"><br>
+<p><b style="font-size:20px">Cgpa of sem1:</b></p>
+<input type="text" name="Cgpa of sem1">
+<p><b style="font-size:20px">Select Favourite color:</b></p>
+<input type="checkbox" id="color1" name="color" value="Red">
+<label for="color1">Red</label><br>
+<input type="checkbox" id="color2" name="color" value="Blue">
+<label for="color2">Blue</label><br>
+
+<button type="button">submit</button >
+
+</form>
+</feildset>
+
+<button onclick="myFunc()">Try it</button>
+<p id="demo"></p>
+<script>
+function myFunc() {
+  alert("I am an alert box!");
+}
+
+
+
+
+let x, y, z;  
+x = 5; 
+y=9;       
+z = x + y;    
+
+document.getElementById("demo").innerHTML =
+"The value of z is "  +z;  
+
+document.write(9+23);
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
